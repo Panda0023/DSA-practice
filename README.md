@@ -1,1 +1,1 @@
-Daily practicing DSA questions and learning concepts 
+Daily practicing DSA questions in java 
