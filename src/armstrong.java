@@ -11,7 +11,7 @@ public class armstrong {
 
     static boolean armstrongcheck(int num) {
         int temp=num;
-        //Here we check for 3 digit numbers whether it's armstrong or not
+        //Here we check for 3digits's numbers whether it's armstrong or not
         int sum=0;
         if (num < 100 || num > 1000) {
             return false;
