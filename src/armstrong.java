@@ -4,12 +4,12 @@ public class armstrong {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        boolean ans=armstrong(n);
+        boolean ans=armstrongcheck(n);
         System.out.println(ans);
 
     }
 
-    static boolean armstrong(int num) {
+    static boolean armstrongcheck(int num) {
         int temp=num;
         //Here we check for 3 digit numbers whether it's armstrong or not
         int sum=0;
